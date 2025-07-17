@@ -1748,6 +1748,11 @@ section,
     height:315px;
   }
 
+a.nav-link {
+  font-weight: 700;
+  color: #1977cc;
+}
+
   @media (max-width: 768px) {
     .iframe-youtube {
       width:310px;

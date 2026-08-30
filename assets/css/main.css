@@ -1061,6 +1061,26 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Experiance Section
+--------------------------------------------------------------*/
+.experiance .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.experiance .content ul li {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.experiance .content ul i {
+  flex-shrink: 0;
+  color: var(--accent-color);
+  margin-right: 20px;
+}
+
+/*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
 .stats i {
